@@ -1,0 +1,6 @@
+[submodule "libs/simpleMVP"]
+	path = libs/simpleMVP
+	url = https://github.com/abangfadli/simpleMVP
+[submodule "libs/AndroidCommonUtils"]
+	path = libs/AndroidCommonUtils
+	url = https://github.com/abangfadli/AndroidCommonUtils
