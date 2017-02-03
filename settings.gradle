@@ -1,0 +1,7 @@
+include ':app'
+
+include ':simpleMVP'
+project(':simpleMVP').projectDir = new File(settingsDir, '/libs/simpleMVP/simpleMVP-core')
+
+include ':commonUtils'
+project(':commonUtils').projectDir = new File(settingsDir, '/libs/AndroidCommonUtils/CommonUtils-core')
