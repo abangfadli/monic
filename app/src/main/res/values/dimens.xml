@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="page_side_margin">@dimen/default_side_margin</dimen>
+    <dimen name="page_top_bottom_margin">8dp</dimen>
+    <dimen name="small_content_padding">4dp</dimen>
+    <dimen name="medium_content_padding">8dp</dimen>
+
+    <dimen name="small_margin">4dp</dimen>
+    <dimen name="default_margin">8dp</dimen>
+
+    <dimen name="default_side_margin">@dimen/default_margin</dimen>
+
+    <dimen name="default_children_margin">@dimen/small_margin</dimen>
+    <dimen name="default_section_margin">@dimen/default_margin</dimen>
+
+    <dimen name="default_radius">5dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="text_size_small_10">10sp</dimen>
+    <dimen name="text_size_medium_12">12sp</dimen>
+    <dimen name="text_size_medium_13">13sp</dimen>
+    <dimen name="text_size_large_14">14sp</dimen>
+    <dimen name="text_size_xlarge_16">16sp</dimen>
+    <dimen name="text_size_xxlarge_20">20sp</dimen>
+
+
+    <!-- HOME.CATEGORY -->
+    <dimen name="category_item_title">@dimen/text_size_xlarge_16</dimen>
+
+    <!-- SEARCH.RESULT.ITEM -->
+    <dimen name="search_item_title">@dimen/text_size_large_14</dimen>
+    <dimen name="search_item_subtitle">@dimen/text_size_small_10</dimen>
+
+    <dimen name="section_title">@dimen/text_size_xlarge_16</dimen>
+
+    <dimen name="toolbar_title">@dimen/text_size_xlarge_16</dimen>
+
+    <dimen name="text_link">@dimen/text_size_large_14</dimen>
+</resources>

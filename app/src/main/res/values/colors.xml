@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- COLOR DICTIONARY -->
+    <color name="colorPrimary">#33bf6d</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#747474</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="primary_green">#33bf6d</color>
+    <color name="secondary_green">#2ab062</color>
+
+    <color name="gray_100">#dadada</color>
+    <color name="gray100_transparent">#aadadada</color>
+    <color name="gray_200">#eeeeee</color>
+
+    <color name="primary_gray">#747474</color>
+
+    <!-- SPECIFIC COLOR -->
+    <color name="background">@color/gray_100</color>
+    <color name="color_gray_transparent">@color/gray100_transparent</color>
+    <color name="gray_separator">@color/gray_200</color>
+
+    <color name="search_item_text_background">@color/primary_green</color>
+
+    <color name="section_title">@color/primary_gray</color>
+    <color name="text_link">@color/primary_green</color>
+
+    <!-- SEARCH.RESULT -->
+    <color name="separator_gray">#77787878</color>
+
+    <!-- SEARCH.RESULT.ITEM -->
+    <color name="search_item_text_color">@color/primary_gray</color>
+
+</resources>

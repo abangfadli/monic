@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Monic</string>
+    <string name="text_label_category">Category</string>
+    <string name="text_label_local">In Your Town</string>
+    <string name="text_label_local_menu">Menu In Your Town</string>
+    <string name="text_label_see_more">See More</string>
+    <string name="text_sample_jakarta_barat">Jakarta Barat</string>
+    <string name="text_sort">Sort</string>
+    <string name="text_filter">Filter</string>
+</resources>

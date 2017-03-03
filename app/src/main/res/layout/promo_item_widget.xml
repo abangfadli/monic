@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewState"
+            type="com.abangfadli.monic.home.promo.PromoItem" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_promo_item"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/text_promo_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/text_size_xxlarge_20"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@{viewState.text}"
+            tools:text="[Sweet Cake]"/>
+    </FrameLayout>
+</layout>

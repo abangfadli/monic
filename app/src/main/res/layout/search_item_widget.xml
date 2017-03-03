@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewState"
+            type="com.abangfadli.monic.common.widget.SearchItem" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        tools:background="@color/white">
+
+        <ImageView
+            android:id="@+id/image_search_item"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@color/search_item_text_background"
+            android:text="@{viewState.score}"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_medium_13"
+            android:layout_marginRight="@dimen/default_side_margin"
+            android:layout_marginTop="@dimen/default_side_margin"
+            android:padding="@dimen/small_margin"
+            tools:text="4.5"/>
+
+        <TextView
+            android:id="@+id/text_search_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_search_item"
+            android:text="@{viewState.title}"
+            android:textStyle="bold"
+            android:textSize="@dimen/search_item_title"
+            android:textColor="@color/search_item_text_color"
+            tools:text="King Crab"/>
+
+        <TextView
+            android:id="@+id/text_search_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_search_title"
+            android:text="@{viewState.description}"
+            android:textSize="@dimen/search_item_subtitle"
+            tools:text="Avg Cost IDR 100K"/>
+
+    </RelativeLayout>
+</layout>
